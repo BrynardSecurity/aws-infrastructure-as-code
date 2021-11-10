@@ -31,3 +31,9 @@ override.tf.json
 .pre-commit-config.yaml
 org/secret.auto.tfvars
 org/dev/vars.auto.tfvars
+
+org/cloud_optix/terraform.zip
+
+org/cloud_optix/terraform/.terraform.lock.hcl
+
+org/.terraform.lock.hcl
