@@ -29,3 +29,5 @@ override.tf.json
 # example: *tfplan*
 
 .pre-commit-config.yaml
+org/secret.auto.tfvars
+org/dev/vars.auto.tfvars
