@@ -1,4 +1,4 @@
-resource "aws_organizations_account" "dev" {
+resource "aws_organizations_account" "prod" {
   # A friendly name for the member account
   name  = var.aws_account_friendly_name
   email = var.aws_account_email
