@@ -28,13 +28,14 @@ module "test" {
     aws_account_email = "test.aws.us@thebrynards.com"
 }
 module "cloud_optix" {
-    source = "./cloud_optix/terraform"
+    source = "./cloud_optix/terraform_v12/"
     a_permission_prompt = "yes"
     customer_id = var.customer_id
     external_id = var.external_id
     dns_prefix_cloudtrail = var.dns_prefix_cloud_trail
     dns_prefix_flowlogs = var.dns_prefix_flowlogs
     aws_region = var.aws_region
+    region_list = var.region_list
 }
 module "access_keys" {
     source = "./access_keys"
