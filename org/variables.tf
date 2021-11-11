@@ -1,4 +1,5 @@
 variable "aws_region" {}
+variable "region_list" {}
 variable "aws_account_friendly_name" {}
 variable "aws_account_email" {}
 variable "customer_id" {}
