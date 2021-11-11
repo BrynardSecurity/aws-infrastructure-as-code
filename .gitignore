@@ -40,3 +40,5 @@ org/.terraform.lock.hcl
 org/cloud_optix/terraform/modules/variables.auto.tfvars
 
 .DS_Store
+
+org/cloud_optix/terraform_v12.zip
