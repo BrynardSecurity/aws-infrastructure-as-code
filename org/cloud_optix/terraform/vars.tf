@@ -9,7 +9,6 @@ PROMPTDESCRIPTION
 }
 
 variable "aws_region" {
-  default = "us-east-2"
 }
 
 variable "avid_account" {

@@ -1,5 +1,17 @@
+terraform {
+    backend "remote" {
+        organization = "BrynardSecurity"
+        
+        workspaces {
+            name = "aws-sophos-cloud-optix"
+        }
+    }
+}
+
 provider "aws" {
   region = var.aws_region
+  version = "2.70.0"
+  profile = "AdministratorAccess-286755520241"
 }
 
 provider "aws" {
